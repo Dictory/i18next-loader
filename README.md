@@ -137,14 +137,14 @@ This configures the loader to work on a file structure like the following:
 Everything from `app/locales` will override anything specified in one to many libraries.
 
 #### Override path method
-`join | resolve | replace`
+`join | resolve`
 
 `join` by default
 
-`join` and `replace` is `path` methods with locales folder
+`join` and `resolve` is `path` methods with locales folder
 
 ```javascript
-{overridePathMethod: 'replace'}
+{overridePathMethod: 'resolve'}
 ```
 
 #### Use file basename as the i18next namespace
